@@ -1,0 +1,39 @@
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game_list {
+  justify-content: center;
+  align-items: center;
+}
+
+.game_list img {
+  width: 40px;
+  padding-left: 10px;
+}
+
+.game_list_wordle {
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.game_list_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game_list_icons img {
+  width: 40px;
+  padding-right: 5px;
+}
