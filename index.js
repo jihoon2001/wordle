@@ -16,7 +16,8 @@ function appStart() {
   };
 
   const nextLine = () => {
-    if (attempts === 6) return gameover();
+    맞은_갯수 = 0;
+    if (attempts === 5) return gameover();
     attempts += 1;
     index = 0;
   };
